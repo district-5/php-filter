@@ -21,6 +21,6 @@
     "phpunit/phpunit": ">=3.7.38"
   },
   "autoload": {
-    "psr-0": { "District5": "src" }
+    "psr-4": { "District5\\": "src/" }
   }
 }
