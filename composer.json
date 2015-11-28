@@ -1,0 +1,26 @@
+{
+  "name": "district5/filter",
+  "description": "District5 Filter Library",
+  "keywords": ["php", "district5", "filter"],
+  "homepage": "https://bitbucket.developer.io/projects/D5LIBS/repos/filter/browse",
+  "license": "Proprietary",
+  "authors": [
+    {
+      "name": "Mark Morgan",
+      "email": "mark.morgan@district5.co.uk"
+    },
+    {
+      "name": "Roger Thomas",
+      "email": "roger.thomas@district5.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=3.7.38"
+  },
+  "autoload": {
+    "psr-0": { "District5": "src" }
+  }
+}
