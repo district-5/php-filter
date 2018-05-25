@@ -8,17 +8,10 @@
     {
       "name": "Mark Morgan",
       "email": "mark.morgan@district5.co.uk"
-    },
-    {
-      "name": "Roger Thomas",
-      "email": "roger.thomas@district5.co.uk"
     }
   ],
   "require": {
     "php": ">=5.4.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": ">=3.7.38"
   },
   "autoload": {
     "psr-4": { "District5\\": "src/" }
