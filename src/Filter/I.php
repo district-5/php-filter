@@ -19,16 +19,14 @@
 namespace District5\Filter;
 
 /**
- * I
- *
  * An interface for describing a minimum set of function that all filters
  * should expose
  *
- * @author Mark Morgan <mark.morgan@district5.co.uk>
+ * @author District5
+ * @package District5\Filter
  */
 interface I
 {
-	
 	/**
 	 * Filters a given value
 	 * 

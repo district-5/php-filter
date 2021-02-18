@@ -1,5 +1,5 @@
 .DS_Store
 .idea
-.vagrant
 vendor
 auth.json
+composer.lock

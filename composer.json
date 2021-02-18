@@ -2,12 +2,12 @@
   "name": "district5/filter",
   "description": "District5 Filter Library",
   "keywords": ["php", "district5", "filter"],
-  "homepage": "https://bitbucket.district5.co.uk/projects/D5LIBS/repos/filter/browse",
-  "license": "Proprietary",
+  "homepage": "https://github.com/district-5/php-filter",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Mark Morgan",
-      "email": "mark.morgan@district5.co.uk"
+      "name": "District5",
+      "email": "hello@district5.co.uk"
     }
   ],
   "require": {
