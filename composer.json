@@ -3,7 +3,7 @@
   "description": "District5 Filter Library",
   "keywords": ["php", "district5", "filter"],
   "homepage": "https://github.com/district-5/php-filter",
-  "license": "MIT",
+  "license": "mit",
   "authors": [
     {
       "name": "District5",
@@ -11,9 +11,9 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=7.1"
   },
   "autoload": {
-    "psr-4": { "District5\\": "src/" }
+    "psr-4": { "District5\\Filter\\": "src/Filter/" }
   }
 }
