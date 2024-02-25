@@ -1,17 +1,25 @@
-# PHP Filter
-A filter interface to facilitate a structure for the [District5 Filters](https://github.com/district-5/php-filters) and any 3rd party filters.
+# District5 Filter Library
+
+## About
+This library provides the skeletons to support filters.
 
 ## Installation
-Install using composer:
-```bash
+This library requires no other libraries.
+
+```
 composer require district5/filter
 ```
 
 ## Usage
-All filters that implement the filter interface in this library must implement a `filter` function that returns the filtered value,
-for example a filter to make a string lowercase could look like:
+### Filter
+All filters that implement the filter interface in this library must implement a `filter()` function that returns the filtered value,
+for example a filter to make a string lowercase might look as follows:
+
 ```php
-class MyStringToLowerFilter implements \District5\Filter\I
+
+use \District5\Filter\FilterInterface;
+
+class MyStringToLowerFilter implements FilterInterface
 {
     public function filter($value)
     {
@@ -23,3 +31,6 @@ class MyStringToLowerFilter implements \District5\Filter\I
     }
 }
 ```
+
+## Issues
+Log a bug report!
